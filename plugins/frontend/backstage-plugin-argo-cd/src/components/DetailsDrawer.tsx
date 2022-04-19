@@ -73,7 +73,7 @@ export const DetailsDrawerComponent = (rowData: any, baseUrl: string | undefined
           endIcon={<OpenInNewIcon />}
           component={Button}
           target="_blank"
-          to={`${baseUrl}/applications/${rowData.metadata.name}`}
+          href={`${baseUrl}/applications/${rowData.metadata.name}`}
         >
           Open Argo CD Dashboard
         </BackstageButton>
